@@ -15,7 +15,7 @@ body {
 
 .header {
     grid-area: header;
-    background-color: #fff;
+   
 
 }
 
@@ -26,6 +26,14 @@ body {
     align-items: center;
     min-height: 75px;
     
+}
+
+.header .fixo {
+    background-color: #F5F5F7;
+    width: 100%;
+    height: 8vh;
+    position: fixed;
+    z-index: 2;
 }
 
 .header h1 {
@@ -197,32 +205,44 @@ body {
     padding: 70px 20px;
 }
 
+.services .service .titulo {
+    background-color: red;
+    position: relative;
+}
+
 .services .service img {
     width: 250px;
     margin-bottom: 30px;
    
 }
 
-.services .service h3 {
+.services .service h2 {
     font-size: 1.8rem;
     font-weight: 700;
+    color: #AE0FFC;
 }
 
 .services .service p {
+    color:  #1d1d1f;
     font-size: 2rem;
     font-weight: 400;
-    max-width: 400px;
-    margin: 20px auto 0;
+    max-width: 500px;
+    text-align: center;
+    margin: 15px auto 0;
     line-height: 25px;
 }
 
-.services .service:nth-child(1) {
+.services .service {
+    background-color: #d2d2d7;
+}
+
+/* .services .service:nth-child(1) {
     background-color: #87c0fa;
 }
 
 .services .service:nth-child(2) {
     background-color: #ffb6c1;
-}
+} */
 
 /*RESPONSIVO SERVICES*/
 
